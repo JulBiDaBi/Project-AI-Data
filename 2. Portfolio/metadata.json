@@ -1,0 +1,8 @@
+
+{
+  "name": "Julien Hodonou Portfolio - Data Scientist & AI Specialist",
+  "description": "Professional portfolio of Julien Hodonou, featuring expertise in Data Science, AI Vision, and Business Intelligence, with an integrated Gemini AI assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
