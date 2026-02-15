@@ -1,0 +1,23 @@
+# Paths
+data: "${MY_ENV_HOME}/Phase1_EmotionRecognition/data/YOLO_format"
+
+train: "${MY_ENV_HOME}/Phase1_EmotionRecognition/data/YOLO_format/train/images"
+val: "${MY_ENV_HOME}/Phase1_EmotionRecognition/data/YOLO_format/valid/images"
+test: "${MY_ENV_HOME}/Phase1_EmotionRecognition/data/YOLO_format/test/images"
+
+# Classes
+nc: 8
+names:
+  [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise",
+  ]
+
+# Network configuration (choose other variations if desired)
+network: "yolov8m"
