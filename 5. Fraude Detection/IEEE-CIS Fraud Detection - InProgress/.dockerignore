@@ -1,0 +1,7 @@
+data/
+models/artifacts/
+experiments/
+.git
+.gitignore
+__pycache__
+*.ipynb

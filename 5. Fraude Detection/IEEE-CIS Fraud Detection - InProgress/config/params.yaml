@@ -1,0 +1,35 @@
+# Data Paths
+raw_data_path: "data/raw"
+processed_data_path: "data/processed"
+
+# Feature Groups (Based on IEEE-CIS documentation)
+target: "isFraud"
+id_column: "TransactionID"
+time_column: "TransactionDT"
+
+# Categorical columns that need encoding later
+categorical_features:
+  - "ProductCD"
+  - "card4"
+  - "card6"
+  - "P_emaildomain"
+  - "R_emaildomain"
+  - "M1"
+  - "M2"
+  - "M3"
+  - "M4"
+  - "M5"
+  - "M6"
+  - "M7"
+  - "M8"
+  - "M9"
+  - "DeviceType"
+  - "DeviceInfo"
+
+# Model Parameters (Placeholder for now)
+lgb_params:
+  n_estimators: 500
+  learning_rate: 0.05
+  num_leaves: 256
+  objective: "binary"
+  metric: "auc"
